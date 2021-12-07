@@ -9,6 +9,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
+        val lugares = LugaresTuristicos()
+        lugares.nombre="Monserrate"
+        lugares.descripcion="Monserrate es un lugar turistico ubicado en la ciudad de Bogotá Colombia"
+
         //Llama la función
         variablesyConstantes()
 
