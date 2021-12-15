@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/charl/OneDrive/Escritorio/MobileUdea/DevelAPPS/app/src/main/res/layout/activity_lugares_turisticos.xml" value="0.1" />
-        <entry key="..\:/Users/charl/OneDrive/Escritorio/MobileUdea/DevelAPPS/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/charl/OneDrive/Escritorio/MobileUdea/DevelAPPS/app/src/main/res/layout/activity_lugares_turisticos.xml" value="0.12" />
+        <entry key="..\:/Users/charl/OneDrive/Escritorio/MobileUdea/DevelAPPS/app/src/main/res/layout/activity_main.xml" value="0.18421052631578946" />
+        <entry key="..\:/Users/charl/OneDrive/Escritorio/MobileUdea/DevelAPPS/app/src/main/res/layout/item_ciudad.xml" value="0.33" />
       </map>
     </option>
   </component>
