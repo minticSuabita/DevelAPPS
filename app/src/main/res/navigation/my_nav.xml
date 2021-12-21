@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.develapps.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_bogotaFragment"
+            app:destination="@id/bogotaFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_bucaramangaFragment"
+            app:destination="@id/bucaramangaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bogotaFragment"
+        android:name="com.example.develapps.BogotaFragment"
+        android:label="fragment_bogota"
+        tools:layout="@layout/fragment_bogota" >
+        <action
+            android:id="@+id/action_bogotaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bucaramangaFragment"
+        android:name="com.example.develapps.BucaramangaFragment"
+        android:label="fragment_bucaramanga"
+        tools:layout="@layout/fragment_bucaramanga" >
+        <action
+            android:id="@+id/action_bucaramangaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DevelAPPS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmenn">Fragmenn</string>
+    <string name="detalle_del_destino">Detalle del destino</string>
+    <string name="textview">TextView</string>
 </resources>

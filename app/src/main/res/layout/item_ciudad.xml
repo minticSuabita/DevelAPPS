@@ -9,47 +9,69 @@
         android:id="@+id/nom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        android:layout_marginBottom="6dp"
-        android:text="TextView"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/textview"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/descripcionC"
         app:layout_constraintStart_toEndOf="@+id/imageC"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41000003" />
 
     <TextView
         android:id="@+id/descripcionC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginBottom="6dp"
-        android:text="TextView"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/textview"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/temperaturaC"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageC"
-        app:layout_constraintTop_toBottomOf="@+id/nom" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
 
     <TextView
         android:id="@+id/temperaturaC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="14dp"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageC"
-        app:layout_constraintTop_toBottomOf="@+id/descripcionC" />
+        app:layout_constraintTop_toBottomOf="@+id/descripcionC"
+        app:layout_constraintVertical_bias="0.068" />
 
     <ImageView
         android:id="@+id/imageC"
-        android:layout_width="82dp"
-        android:layout_height="77dp"
+        android:layout_width="152dp"
+        android:layout_height="277dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="9dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ImageContrastCheck"
         tools:srcCompat="@tools:sample/avatars" />
+
+        android:id="@+id/flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="nom" />
+
+        android:id="@+id/constraints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        android:id="@+id/layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="descripcionC" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
